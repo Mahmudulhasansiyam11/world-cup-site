@@ -1,0 +1,66 @@
+/* Universal */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Font */
+/* Poppins Font */
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Primary */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.button_primary {
+  background-color: #dd0000;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* Header Section */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  background-color: black;
+  border-radius: 40px;
+  height: 650px;
+  margin-top: 50px;
+}
+.header-content1 {
+  color: white;
+  margin-top: 111px;
+  margin-left: 100px;
+  margin-bottom: 111px;
+}
+.header-content1 h3 {
+  font-size: 70px;
+  font-weight: bold;
+}
+.header-content1 p {
+  margin-top: 20px;
+}
+.header-content1 button {
+  font-size: 20px;
+  font-weight: 500px;
+  margin-top: 30px;
+}
+.header-content1 button i {
+  margin-left: 10px;
+}
+.header-content2 {
+  margin-top: 30px;
+  margin-right: 70px;
+}
+.header-content2 img {
+  width: 581px;
+  height: 613px;
+  display: block;
+}
